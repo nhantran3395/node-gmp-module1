@@ -1,8 +1,8 @@
 import csvReader from "csvtojson";
 import fs from "fs";
 
-const INPUT_CSV_FILE_PATH = "./csv/task2.csv";
-const OUTPUT_TXT_FILE_PATH = "./csv/task2.txt";
+const INPUT_CSV_FILE_PATH = "./csv/bookData.csv";
+const OUTPUT_TXT_FILE_PATH = "./csv/task2bookOutput.txt";
 
 const writeCsvToTxt = async () => {
   let data: {}[] = [];
