@@ -6,6 +6,8 @@ const lineReader = readline.createInterface({
   terminal: false,
 });
 
+console.log("type in any word or sentence to see the magic!");
+
 lineReader.on("line", (line: string) => {
   const lineReversed = reverseLine(line);
   console.log(lineReversed);
