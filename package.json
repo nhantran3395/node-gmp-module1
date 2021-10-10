@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "task1": "nodemon --exec ts-node task1/index.ts",
-    "task2": "nodemon --exec ts-node task2/index.ts",
-    "task3": "nodemon --exec ts-node task3/index.ts",
+    "task1": "nodemon --exec ts-node src/task1/index.ts",
+    "task2": "nodemon --exec ts-node src/task2/index.ts",
+    "task3": "nodemon --exec ts-node src/task3/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
