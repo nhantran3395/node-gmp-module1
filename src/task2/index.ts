@@ -1,7 +1,7 @@
 import csvReader from "csvtojson";
 import fs from "fs";
 
-import { BookInputDTO, BookOutputDTO } from "./model";
+import { BookInputDTO, BookOutputDTO } from "../shared/model";
 
 const INPUT_CSV_FILE_PATH = "./csv/bookData.csv";
 const OUTPUT_TXT_FILE_PATH = "./csv/task2bookOutput.txt";
